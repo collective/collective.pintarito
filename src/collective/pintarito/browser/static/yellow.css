@@ -1,64 +1,7 @@
-#portal-logo path,
-#portal-logo circle {
-    fill: #fc0 !important;
-}
-
 :root {
-    --bs-primary: #fc0 !important;
-    --bs-link-color: #9b1313 !important;
-    --plone-toolbar-text-color: var(--bs-dark) !important;
-    --plone-link-color: #f03608 !important;
-}
-
-.navbar-barceloneta {
-    --bs-navbar-background: #fffacf !important;
-    --bs-navbar-color: var(--plone-link-color) !important;
-}
-
-.btn-outline-light {
-    --bs-btn-color: var(--plone-link-color) !important;
-}
-
-#edit-zone .dropdown-item,
-#edit-zone .nav-link {
-    color: var(--bs-white) !important;
-}
-
-#portal-footer-wrapper {
-    background-color: #fffacf !important;
-    color: #000000 !important;
-}
-
-.pat-structure table.dataTable tr td.actionmenu-container .btn,
-.pat-structure .itemRow.folder .title a {
-    color: var(--bs-link-color);
-}
-
-#edit-zone .dropdown-header {
-    background: var(--bs-primary);
-}
-
-#edit-zone .dropdown-item:focus,
-#edit-zone .dropdown-item:hover,
-#edit-zone .nav-link:focus,
-#edit-zone .nav-link:hover {
-    background: var(--bs-primary);
-    color: var(--plone-toolbar-text-color);
-}
-
-.btn-primary {
-    --bs-btn-color: #fff;
-    --bs-btn-bg: #fc0 !important;
-    --bs-btn-border-color: #fc0 !important;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #f03608 !important;
-    --bs-btn-hover-border-color: #f03608 !important;
-    --bs-btn-focus-shadow-rgb: 38, 143, 189;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #f03608 !important;
-    --bs-btn-active-border-color: #f03608 !important;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #fc0 !important;
-    --bs-btn-disabled-border-color: #fc0 !important;
+    --pintarito-base: #ffc000;
+    --pintarito-dark: #ffa000;
+    --pintarito-darker: #ff8000;
+    --pintarito-light: #ffe000;
+    --pintarito-lighter: #ffff00;
 }
