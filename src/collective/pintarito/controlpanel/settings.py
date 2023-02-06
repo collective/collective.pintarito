@@ -14,7 +14,6 @@ class IPintaritoSettings(Interface):
     selection = schema.Choice(
         title=_("Selection"),
         description=_("Default selection"),
-        required=False,
         vocabulary="collective.pintarito.vocabularies.available_selections",
         default="red",
     )

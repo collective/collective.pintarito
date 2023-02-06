@@ -11,13 +11,15 @@ class SelectionsVocabulary:
         [
             SimpleTerm(value=key, token=key, title=value)
             for key, value in {
-                "default": _("Default"),
+                "default": _("Default barceloneta colors"),
                 "red": _("Red"),
                 "green": _("Green"),
                 "blue": _("Blue"),
                 "yellow": _("Yellow"),
                 "orange": _("Orange"),
                 "purple": _("Purple"),
+                "fancy-pastels": _("Fancy pastels"),
+                "brownish": _("Brownish"),
             }.items()
         ]
     )
