@@ -1,0 +1,64 @@
+#portal-logo path,
+#portal-logo circle {
+    fill: #800080 !important;
+}
+
+:root {
+    --bs-primary: #800080 !important;
+    --bs-link-color: #381738 !important;
+    --plone-toolbar-text-color: var(--bs-dark) !important;
+    --plone-link-color: #7c0254 !important;
+}
+
+.navbar-barceloneta {
+    --bs-navbar-background: #af5baf !important;
+    --bs-navbar-color: var(--plone-link-color) !important;
+}
+
+.btn-outline-light {
+    --bs-btn-color: var(--plone-link-color) !important;
+}
+
+#edit-zone .dropdown-item,
+#edit-zone .nav-link {
+    color: var(--bs-white) !important;
+}
+
+#portal-footer-wrapper {
+    background-color: #af5baf !important;
+    color: #000000 !important;
+}
+
+.pat-structure table.dataTable tr td.actionmenu-container .btn,
+.pat-structure .itemRow.folder .title a {
+    color: var(--bs-link-color);
+}
+
+#edit-zone .dropdown-header {
+    background: var(--bs-primary);
+}
+
+#edit-zone .dropdown-item:focus,
+#edit-zone .dropdown-item:hover,
+#edit-zone .nav-link:focus,
+#edit-zone .nav-link:hover {
+    background: var(--bs-primary);
+    color: var(--plone-toolbar-text-color);
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #800080 !important;
+    --bs-btn-border-color: #800080 !important;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #7c0254 !important;
+    --bs-btn-hover-border-color: #7c0254 !important;
+    --bs-btn-focus-shadow-rgb: 38, 143, 189;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #7c0254 !important;
+    --bs-btn-active-border-color: #7c0254 !important;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #800080 !important;
+    --bs-btn-disabled-border-color: #800080 !important;
+}
