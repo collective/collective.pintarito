@@ -15,7 +15,7 @@ long_description = "\n\n".join(
 
 setup(
     name="collective.pintarito",
-    version="0.0.1a1",
+    version="0.0.1",
     description="An add-on for Plone",
     long_description=long_description,
     # Get more from https://pypi.org/classifiers/
